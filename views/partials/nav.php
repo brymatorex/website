@@ -8,13 +8,13 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="/LaracastCourse/demo/index.php" class="<?= urlIs('/LaracastCourse/demo/index.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
+              <a href="/index.php" class="<?= urlIs('/index.php') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</a>
 
-              <a href="/LaracastCourse/demo/about.php" class="<?= $_SERVER['REQUEST_URI'] === '/LaracastCourse/demo/about.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
+              <a href="/about.php" class="<?= $_SERVER['REQUEST_URI'] === '/about.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
 
-              <a href="/LaracastCourse/demo/contact.php" class="<?= $_SERVER['REQUEST_URI'] === '/LaracastCourse/demo/contact.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
+              <a href="/contact.php" class="<?= $_SERVER['REQUEST_URI'] === '/contact.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a>
 
-              <a href="/LaracastCourse/demo/mission.php" class="<?= $_SERVER['REQUEST_URI'] === '/LaracastCourse/demo/mission.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Our Mission</a>
+              <a href="/mission.php" class="<?= $_SERVER['REQUEST_URI'] === '/mission.php' ? 'bg-gray-900 text-white' : 'text-gray-300' ?> text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Our Mission</a>
 
               
             </div>
