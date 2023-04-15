@@ -26,4 +26,3 @@ if (array_key_exists($uri, $routes)){
 //     require 'controllers/mission.php';
 // }
 
-got hooked at Ep15(5:00)
